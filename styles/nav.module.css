@@ -1,25 +1,23 @@
 .nav {
-    height: 100px;
+    height: 110px;
     padding: 10px;
-    background: rgb(35, 5, 59);
-    color: aliceblue;
+    border-bottom: 2px solid rgb(48, 5, 77);
+    background: rgb(251, 251, 252);
+    color: rgb(92, 59, 122);
     display: flex;
      align-items:center ;
-     justify-content: flex-start;
+     /* justify-content: flex-start; */
 }
 
 .nav ul {
     display: flex;
+    margin-left: 3rem;
     justify-content: center;
     align-items: center;
     list-style: none;
+    font-size:1.3rem;
 }
 
 .nav ul li a {
     margin: 5px 15px;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }

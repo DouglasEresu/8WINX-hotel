@@ -1,14 +1,17 @@
 .footer {
     display: flex;
+    flex-direction: column;
+    border-top: 2px solid rgb(48, 5, 77);
+    height: 10rem;
     flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
+    padding: 0.5rem ;
     justify-content: center;
     align-items: center;
   }
   
-  .footer a {
+  .footer p {
     display: flex;
+    padding:0rem;
     justify-content: center;
     align-items: center;
     flex-grow: 1;

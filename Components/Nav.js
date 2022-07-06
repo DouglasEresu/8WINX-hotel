@@ -1,33 +1,35 @@
 import React from 'react'
 import Link from 'next/link'
 import navStyles from '../styles/Nav.module.css'
+import Logo from './logo'
 
 const Nav = () => {
   return (
     <div className={navStyles.nav}>
-        <ul>
+        <Logo/>
+        <ul className={navStyles.ul}> 
             <li>
-                <Link href='/'>Home</Link>
+                <Link href='/'>HOME</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link href='/rooms'>Rooms</Link>
+                <Link href='/rooms'>ROOMS</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link href='/dining'>Dining</Link>
+                <Link href='/dining'>DINING</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link href='/events'>Events</Link>
+                <Link href='/events'>EVENTS</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link href='/bookings'>Bookings</Link>
+                <Link href='/bookings'>BOOKINGS</Link>
             </li>
         </ul>
     </div>
