@@ -5,14 +5,12 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div className={footerStyles.footer}>
-    <div>
         <Image
       src="/8winx logo.jpg"
       alt="8winx logo"
       width="200px"
       height="100px"
     />
-     </div>
      <br/>
      <div>
      <p>Plot 7 Kakungulu Road Ntinda next to Ntinda police station  P.o Box 689 Kampala</p>
