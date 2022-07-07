@@ -10,7 +10,8 @@ const Body = () => {
         <Image src="/8winx logo.jpg" 
         alt="passport sized pic"
         width= "100px"
-        height= "100px"/>
+        height= "100px"
+        className='rounded-circle'/>
         <h2>KEEP IT DRY</h2>
         <p>reifrh3irfy3rfh3hhf<br/>
             jfnrjf3hjfb3hrfb3h<br/>
@@ -29,7 +30,8 @@ const Body = () => {
         <Image src="/8winx logo.jpg" 
         alt="passport sized pic"
         width= "100px"
-        height= "100px"/>
+        height= "100px"
+        className='rounded-circle'/>
         <h2>KEEP IT DRY</h2>
         <p>reifrh3irfy3rfh3hhf<br/>
             jfnrjf3hjfb3hrfb3h<br/>
@@ -48,7 +50,8 @@ const Body = () => {
         <Image src="/8winx logo.jpg" 
         alt="passport sized pic"
         width= "100px"
-        height= "100px"/>
+        height= "100px"
+        className='rounded-circle'/>
         <h2>KEEP IT DRY</h2>
         <p>reifrh3irfy3rfh3hhf<br/>
             jfnrjf3hjfb3hrfb3h<br/>
@@ -67,7 +70,8 @@ const Body = () => {
         <Image src="/8winx logo.jpg" 
         alt="passport sized pic"
         width= "100px"
-        height= "100px"/>
+        height= "100px"
+        className='rounded-circle'/>
         <h2>KEEP IT DRY</h2>
         <p>reifrh3irfy3rfh3hhf<br/>
             jfnrjf3hjfb3hrfb3h<br/>
