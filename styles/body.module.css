@@ -1,9 +1,25 @@
 .grid {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    max-width: 2000px;
+    justify-content: flex-start;
+    max-width: 4000px;
+  }
+
+  .platform{
+    margin: 0px 0px 50px 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #47082f;
+    color: #eaeaea;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* align-content: center; */
+    max-width: 1400px;
   }
   
   .card {
@@ -13,19 +29,16 @@
     background-color: #eaeaea;
     color: inherit;
     text-decoration: none;
-    border-right: 3px solid #47082f;
-    border-top: 3px solid #47082f;
-    border-bottom: 3px solid #47082f;
-    /* transition: color 0.15s ease, border-color 0.15s ease; */
+    transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 300px;
+    
   }
   
-  /* .card:hover,
+  .card:hover,
   .card:focus,
   .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
-  } */
+    box-shadow: 0 18px 36px black, 0 14px 11px black;
+  }
   
   .card h2 {
     margin: 0 0 1rem 0;
@@ -45,7 +58,3 @@
     line-height: 1.5;
   }
   
-  .slider{
-    justify-content: flex-start;
-    padding-top: 0px;
-  }

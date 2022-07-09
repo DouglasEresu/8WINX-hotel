@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 import navStyles from '../styles/Nav.module.css'
+import bodyStyles from '../styles/body.module.css'
 import Logo from './logo'
 
 const Nav = () => {
   return (
-    <div className={navStyles.nav}>
+
+    <nav className={navStyles.nav}>
         <Logo/>
         <ul className={navStyles.ul}> 
             <li>
@@ -19,7 +21,8 @@ const Nav = () => {
         </ul>
         <ul>
             <li>
-                <Link href='/dining'>DINING</Link>
+                <Link href='/dining'>DINING</Link> 
+                
             </li>
         </ul>
         <ul>
@@ -32,7 +35,7 @@ const Nav = () => {
                 <Link href='/bookings'>BOOKINGS</Link>
             </li>
         </ul>
-    </div>
+    </nav>
   )
 }
 

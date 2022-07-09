@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Main from '../Components/Main'
-// import Upload from '../Storage/images'
 import styles from '../styles/Home.module.css'
-import bodyStyles from '../styles/body.module.css'
-import Body from '../Components/Body'
+import Header from '../Components/Header'
+
+
 
 
 export default function Home() {
@@ -13,12 +12,11 @@ export default function Home() {
         <title>8Winx hotel</title>
         <meta name="description" content="Ntinda hotel and restaurant" />
       </Head>
-<div className={styles.main}>
-  <Main/>
-</div>
-<div className={bodyStyles.grid}>
-  <Body/>
-</div>
+      <div className={styles.main}>
+        <Header/>
+      </div>
+
+
 
         
         
