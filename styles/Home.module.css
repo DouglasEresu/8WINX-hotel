@@ -1,6 +1,7 @@
 .container {
   padding: 0 0rem;
-
+  display: block;
+  flex-wrap: wrap;
 }
 
 .main {

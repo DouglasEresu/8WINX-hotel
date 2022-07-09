@@ -7,20 +7,53 @@
   }
 
   .platform{
-    margin: 0px 0px 50px 10px;
+    margin: 0px 0px 10px 10px;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 10px;
     background-color: #47082f;
     color: #eaeaea;
     justify-content: center;
     /* align-items: center; */
     text-align: center;
     /* align-content: center; */
-    max-width: 1400px;
+    max-width: 1330px;
   }
+
+  
+
+  
+
+  .platform2{
+    margin: 0px 0px 50px 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    color: #47082f;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    /* align-content: center; */
+    max-width: 1330px;
+  }
+  .platform2map{
+    margin: 0px 0px 50px 820px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .platform2 p{
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  
   
   .card {
     margin: 1rem;
@@ -42,7 +75,7 @@
   
   .card h2 {
     margin: 0 0 1rem 0;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #47082f;
   }
 

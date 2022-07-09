@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../Components/Header'
-
+import Main from '../Components/main'
 
 
 
@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <Header/>
+        <Main/>
       </div>
 
 
