@@ -6,6 +6,7 @@ const Logo = () => {
   return (
     <div className={logoStyles.logo}>
         <Image
+      className=' id="img-fluid"'
       src="/8winx logo.jpg"
       alt="8winx logo"
       width="150px"

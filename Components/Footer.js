@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
     <div>
         <Image
+      className=' id="img-fluid"'  
       src="/8winx logo.jpg"
       alt="8winx logo"
       width="200px"
