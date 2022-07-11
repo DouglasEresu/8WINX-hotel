@@ -168,17 +168,19 @@ const Header = () => {
           >
             <Image
               class="card-img-top"
-              src="/room1.jpeg"
+              src="/bedroom1.jpeg"
               alt="Card image cap"
               width="286px"
               height="250px"
             />
             <div class="card-body">
-              <h5 class="card-title">Rooms and suite</h5>
+              <h4 class="card-title">Deluxe single room</h4>
               <p class="card-text">
-                Checkout our deluxe single and double rooms
+                single bed<br/>
+                bathroom
               </p>
-              <a href="/rooms" class="btn btn-success">
+            
+              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
             </div>
@@ -192,17 +194,19 @@ const Header = () => {
           >
             <Image
               class="card-img-top"
-              src="/room1.jpeg"
+              src="/bedroom2.jpeg"
               alt="Card image cap"
               width="286px"
               height="250px"
             />
             <div class="card-body">
-              <h5 class="card-title">Rooms and suite</h5>
+              <h4 class="card-title">Deluxe double room</h4>
               <p class="card-text">
-                Checkout our deluxe single and double rooms
+                Double bed<br/>
+                spacious bedroom<br/>
+                bathroom
               </p>
-              <a href="/rooms" class="btn btn-success">
+              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
             </div>
@@ -216,17 +220,18 @@ const Header = () => {
           >
             <Image
               class="card-img-top"
-              src="/room1.jpeg"
+              src="/room2.jpeg"
               alt="Card image cap"
               width="286px"
               height="250px"
             />
             <div class="card-body">
-              <h5 class="card-title">Rooms and suite</h5>
+              <h4 class="card-title">Deluxe twin room</h4>
               <p class="card-text">
-                Checkout our deluxe single and double rooms
+                twin beds<br/>
+                bathroom
               </p>
-              <a href="/rooms" class="btn btn-success">
+              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
             </div>
@@ -245,12 +250,15 @@ const Header = () => {
               width="286px"
               height="250px"
             />
-            <div class="card-body">
-              <h5 class="card-title">Rooms and suite</h5>
+            <div class="card-body sr-only-red">
+              <h4 class="card-title">Hotel suite</h4>
               <p class="card-text">
-                Checkout our deluxe single and double rooms
+                double bed<br/>
+                bathroom<br/>
+                kitchen<br/>
+                living room
               </p>
-              <a href="/rooms" class="btn btn-success">
+              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
             </div>
@@ -260,15 +268,17 @@ const Header = () => {
     <div className={bodyStyles.platform3}>
       <h1 className='display-3'>Come and dine with us</h1>
         <div className={bodyStyles.inset}>
-        <h6>We offer delicious local
-            delicacies served with
-               </h6>
+        <h5>We offer delicious local and exotic 
+            delicacies served with passion from 
+            our morning breakfast to lunch buffet and dinner.
+            Join us for a memorable dining experience.
+               </h5>
             
         </div>
     </div>
           <hr />
 
-          <card >
+          <div >
             <h2>Find Us:</h2>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.97434957503!2d32.6162293!3d0.3506855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x889415edf7316b56!2sEight%20Winx%20Hotel!5e0!3m2!1sen!2sug!4v1657383956273!5m2!1sen!2sug"
@@ -279,13 +289,13 @@ const Header = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
             <h4>for more info Contact Us:
-              <h5><span class="material-icons">phone</span>  0392176756</h5>
+              <p><span class="material-icons">phone</span>  0392176756</p>
             </h4>
-            <a href="/rooms" class="btn btn-success">
+            <a href="/bookings" class="btn btn-success">
                 Book a reservation
               </a>
 
-          </card>
+          </div>
         </div>
      
     </main>

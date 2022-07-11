@@ -34,10 +34,10 @@
     border-radius: 10px;
     background-color: #eaeaea;
     color: #47082f;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     text-align: start;
-    /* align-content: center; */
+    align-content: space-around;
     max-width: 1200px,
   }
   .map{
@@ -75,6 +75,7 @@
     padding: 3rem;
     width: 300px;
     font-weight: 200;
+    transform: rotate(350deg);
     height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +93,7 @@
   
   
   .card {
-    transition: color 0.15s ease, border-color 0.15s ease;
+    transition: color 0.25s ease, border-color 0.25s ease;
     max-width: 300px;
     
   }
@@ -100,7 +101,7 @@
   .card:hover,
   .card:focus,
   .card:active {
-    box-shadow: 0 18px 36px #47082f, 0 14px 11px #47082f;
+    box-shadow: 5px 18px 36px #47082f, 5px 14px 11px #47082f;
   }
   
   .card h2 {
