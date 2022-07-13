@@ -82,13 +82,13 @@ const Header = () => {
           <br />
         </pre>
         <hr />
-        <div>
+        <div >
           <b>
             <i>
               <h4>Property amenities</h4>
             </i>
           </b>
-          <pre>
+        
             <p>
               <span class="material-icons">diversity_3</span> Conference hall{' '}
             </p>
@@ -104,18 +104,17 @@ const Header = () => {
             <p>
               <span class="material-icons">restaurant</span> Restaurant
             </p>
-          </pre>
+        
         </div>
+        <div className={bodyStyles.vl}></div>
+        <hr/>
 
-        <hr />
-
-        <div>
+        <div >
           <b>
             <i>
               <h4>Room amenities</h4>
             </i>
           </b>
-          <pre>
             <p>
               <span class="material-icons">room_service</span> Room service
             </p>
@@ -132,8 +131,9 @@ const Header = () => {
             <p>
               <span class="material-icons">air</span> Air conditioning
             </p>
-          </pre>
+  
         </div>
+        <div className={bodyStyles.vl}></div>
         <hr />
         <div>
           <b>
@@ -141,7 +141,7 @@ const Header = () => {
               <h4>Services</h4>
             </i>
           </b>
-          <pre>
+        
             <p>
               <span class="material-icons">celebration</span> Event catering
             </p>
@@ -158,112 +158,95 @@ const Header = () => {
             <p>
               <span class="material-icons">local_police</span>24hour security
             </p>
-          </pre>
+      
         </div>
         <div className={bodyStyles.platform2}>
-          <div
-            class="card"
-            className={bodyStyles.card}
-            style={{ width: 18 + 'rem' }}
-          >
-            <Image
-              class="card-img-top"
+       <div class="col">
+         <div class="card ">
+           <img  class="card-img-top"
               src="/bedroom1.jpeg"
               alt="Card image cap"
               width="286px"
-              height="250px"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Deluxe single room</h4>
-              <p class="card-text">
+              height="250px"/>
+              
+          <div class="card-body">
+        <h4 class="card-title">Deluxe single room</h4>
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <p>per night</p></h3>
+        <p class="card-text" >
                 single bed<br/>
-                bathroom
-              </p>
-            
-              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
+                bathroom</p>
+        <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
-            </div>
-          </div>
-          <hr />
-
-          <div
-            class="card"
-            className={bodyStyles.card}
-            style={{ width: 18 + 'rem' }}
-          >
-            <Image
-              class="card-img-top"
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img  class="card-img-top"
               src="/bedroom2.jpeg"
               alt="Card image cap"
               width="286px"
-              height="250px"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Deluxe double room</h4>
-              <p class="card-text">
+              height="250px"/>
+      <div class="card-body">
+        <h4 class="card-title">Deluxe double room</h4>
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <p>per night</p></h3>
+        <p class="card-text"> 
                 Double bed<br/>
                 spacious bedroom<br/>
-                bathroom
-              </p>
-              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
+                bathroom</p>
+        <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
-            </div>
-          </div>
-          <hr />
-
-          <div
-            class="card"
-            className={bodyStyles.card}
-            style={{ width: 18 + 'rem' }}
-          >
-            <Image
-              class="card-img-top"
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img  class="card-img-top"
               src="/room2.jpeg"
               alt="Card image cap"
               width="286px"
-              height="250px"
-            />
-            <div class="card-body">
-              <h4 class="card-title">Deluxe twin room</h4>
-              <p class="card-text">
-                twin beds<br/>
-                bathroom
-              </p>
-              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
+              height="250px"/>
+      <div class="card-body">
+        <h4 class="card-title">Deluxe twin room</h4>
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <p>per night</p></h3>
+        <p class="card-text">
+               twin beds<br/>
+                bathroom</p>
+        <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
-            </div>
-          </div>
-          <hr /> 
-
-          <div
-            class="card"
-            className={bodyStyles.card}
-            style={{ width: 18 + 'rem' }}
-          >
-            <Image
-              class="card-img-top"
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img  class="card-img-top"
               src="/room1.jpeg"
               alt="Card image cap"
               width="286px"
-              height="250px"
-            />
-            <div class="card-body sr-only-red">
-              <h4 class="card-title">Hotel suite</h4>
-              <p class="card-text">
+              height="250px"/>
+      <div class="card-body">
+        <h4 class="card-title">Hotel suite</h4>
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <p>per night</p></h3>
+        <p class="card-text">
                 double bed<br/>
                 bathroom<br/>
                 kitchen<br/>
-                living room
-              </p>
-              <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
+                living room</p>
+        <a href="/Rooms" class="btn btn-success d-flex justify-content-center">
                 Check out
               </a>
-            </div>
-          </div>
-     </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
 
     <div className={bodyStyles.platform3}>
       <h1 className='display-3'>Come and dine with us</h1>
@@ -284,9 +267,9 @@ const Header = () => {
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.97434957503!2d32.6162293!3d0.3506855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x889415edf7316b56!2sEight%20Winx%20Hotel!5e0!3m2!1sen!2sug!4v1657383956273!5m2!1sen!2sug"
               width="300"
               height="330"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             <h4>for more info Contact Us:
               <p><span class="material-icons">phone</span>  0392176756</p>

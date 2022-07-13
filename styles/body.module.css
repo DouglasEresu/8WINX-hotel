@@ -15,9 +15,9 @@
     background-color: #47082f;
     color: #eaeaea;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
-    /* align-content: center; */
+    align-content: center;
     max-width: 1330px;
   }
 
@@ -41,7 +41,7 @@
     max-width: 1200px,
   }
   .map{
-    margin-left:  820px;
+    margin-left:  800px;
     
     
   }
@@ -51,6 +51,11 @@
     font-size: 1.25rem;
     line-height: 1.5;
     color: black;
+  }
+  .vl{
+    border-right: 2px solid black;
+    height: 150px;
+    margin-left: 25px;
   }
 
   .platform3{
@@ -86,9 +91,7 @@
     background-color: #47082f;
     color: beige;
   }
-  
 
-  
   
   
   
@@ -102,6 +105,34 @@
   .card:focus,
   .card:active {
     box-shadow: 5px 18px 36px #47082f, 5px 14px 11px #47082f;
+  }
+
+  
+  #price{
+    margin: -20px;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    transform: rotate(340deg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100%;
+    border-style: dashed;
+    border-color: aquamarine;
+    background-color: #47082f;
+    color: beige;
+  }
+  #price h3{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #price p{
+    font-size: 14px;
+    color: bisque;
   }
   
   .card h2 {
