@@ -171,7 +171,7 @@ const Header = () => {
               
           <div class="card-body">
         <h4 class="card-title">Deluxe single room</h4>
-        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$20
         <p>per night</p></h3>
         <p class="card-text" >
                 single bed<br/>
@@ -191,7 +191,7 @@ const Header = () => {
               height="250px"/>
       <div class="card-body">
         <h4 class="card-title">Deluxe double room</h4>
-        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$42
         <p>per night</p></h3>
         <p class="card-text"> 
                 Double bed<br/>
@@ -212,7 +212,7 @@ const Header = () => {
               height="250px"/>
       <div class="card-body">
         <h4 class="card-title">Deluxe twin room</h4>
-        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$50
         <p>per night</p></h3>
         <p class="card-text">
                twin beds<br/>
@@ -232,7 +232,7 @@ const Header = () => {
               height="250px"/>
       <div class="card-body">
         <h4 class="card-title">Hotel suite</h4>
-        <h3 class='card-img-overlay' id={bodyStyles.price}>$134
+        <h3 class='card-img-overlay' id={bodyStyles.price}>$70
         <p>per night</p></h3>
         <p class="card-text">
                 double bed<br/>
@@ -252,8 +252,8 @@ const Header = () => {
       <h1 className='display-3'>Come and dine with us</h1>
         <div className={bodyStyles.inset}>
         <h5>We offer delicious local and exotic 
-            delicacies served with passion from 
-            our morning breakfast to lunch buffet and dinner.
+            delicacies served from 
+            our morning continental breakfast to sumptuous lunch buffet and a la carte dinner.
             Join us for a memorable dining experience.
                </h5>
             
